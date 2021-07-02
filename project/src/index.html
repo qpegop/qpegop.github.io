@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="Andrey">
+    <meta name="robots" content="all">
+
+    <meta property="og:title" content="Это моя первая страница...">
+    
     <title>Я - Андрей Браун</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -35,93 +43,133 @@
     
     <div class="main3"><div class="portfolio">
         <h3>ЧТО Я УМЕЮ</h3>
-        <h4>Веб-дизайн</h4>
-        <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam.</span>
-        <h4>Разработка</h4>
-        <span>Lorem ipsum dolor sit amet placerat <br> facilisis mi in tempus eleifend <br> pellentesque.</span>
-        <h4>CEO-Оптимизация</h4>
-        <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam.</span>
-        <h4>Маркетинг</h4>
-        <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque .</span>
-    </div></div> 
+        <div class="point">
+            <div class="webdesign">
+                <h4>Веб-дизайн</h4>
+                <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam.</span>
+            </div>
+        </div>
+        <div class="point">
+            <div class="work">
+                <h4>Разработка</h4>
+                <span>Lorem ipsum dolor sit amet placerat <br> facilisis mi in tempus eleifend <br> pellentesque.</span>
+            </div>
+        </div>
+        <div class="point">
+            <div class="ceo_optimisation">
+                <h4>CEO-Оптимизация</h4>
+                <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam.</span>
+            </div>
+        </div>
+        <div class="point">
+            <div class="marketing">
+                <h4>Маркетинг</h4>
+                <span>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque .</span>
+            </div>
+        </div>
+    </div></div>
     
     <div class="main4"><div class="cases">
         <h3>КЕЙСЫ</h3>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</span>
-        <h4>CLIENT:</h4>
-        <span>Какая-то компания</span>
-        <h4>WEBSITE</h4>
-        <p><span>http://www.somedomain.com</span></p>
-        <input type="submit" value ="VISIT LIVE SITE">
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</h5>
+        <div class="client">
+            <div class="after_client">
+                <h4>CLIENT:</h4>
+                <span>Какая-то компания</span>
+                <h4>WEBSITE</h4>
+                <p><span>http://www.somedomain.com</span></p>
+                <input type="submit" value ="VISIT LIVE SITE">
+            </div>
+            <div class="main5"><div class="project">
+                <h4>Название проекта</h4>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
+            </div></div>
+        </div>
     </div></div>
-    
-    <div class="main5"><div class="project">
-        <h4>НАЗВАНИЕ ПРОЕКТА</h4>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
+    <div class="main6">
+            <h2>Расчёт стоимости</h2>
+        <div class="calculator">
+            <div class="border">
+                <h4>ТИП САЙТА</h4>
+                <select name="list" id="list" >
+                    <option value="" disabled selected>Выберите пункт...</option>
+                    <option value="1">Тип сайта 1</option>
+                    <option value="2">Тип сайта 2</option>
+                    <option value="3">Тип сайта 3</option>
+                    <option value="4">Тип сайта 4</option>
+                </select>
+                <h4>ДИЗАЙН</h4>
+                <select name="list" id="list">
+                    <option value="" disabled selected>Выберите пункт...</option>
+                    <option value="1">Дизайн 1</option>
+                    <option value="2">Дизайн 2</option>
+                    <option value="3">Дизайн 3</option>
+                    <option value="4">Дизайн 4</option>
+                </select>
+                <h4>АДАПТИВНОСТЬ</h4>
+                <select name="list" id="list">
+                    <option value="" disabled selected>Выберите пункт...</option>
+                    <option value="1">Адаптивность 1</option>
+                    <option value="2">Адаптивность 2</option>
+                    <option value="3">Адаптивность 3</option>
+                    <option value="4">Адаптивность 4</option>
+                </select>
+            </div>
+        <h5>Сроки <span>0</span></h5>
+        <h5>Стоимость <span>0</span></h5>
     </div></div>
-    
-    <div class="main6"><div class="calculator">
-        <h2>РАСЧЁТ СТОИМОСТИ</h2>
-        <h4>ТИП САЙТА</h4>
-        <select name="list" id="list" >
-            <option value="" disabled selected>Выберите пункт...</option>
-            <option value="1">Тип сайта 1</option>
-            <option value="2">Тип сайта 2</option>
-            <option value="3">Тип сайта 3</option>
-            <option value="4">Тип сайта 4</option>
-        </select>
-        <h4>ДИЗАЙН</h4>
-        <select name="list" id="list">
-            <option value="" disabled selected>Выберите пункт...</option>
-            <option value="1">Дизайн 1</option>
-            <option value="2">Дизайн 2</option>
-            <option value="3">Дизайн 3</option>
-            <option value="4">Дизайн 4</option>
-        </select>
-        <h4>АДАПТИВНОСТЬ</h4>
-        <select name="list" id="list">
-            <option value="" disabled selected>Выберите пункт...</option>
-            <option value="1">Адаптивность 1</option>
-            <option value="2">Адаптивность 2</option>
-            <option value="3">Адаптивность 3</option>
-            <option value="4">Адаптивность 4</option>
-        </select>
-        <h5>Сроки <br> 0</h5>
-        <h5>Стоимость <br> 0</h5>
-    </div></div>
-    <div class="main7"><div class="statistic">
+    <div class="main7">
         <h3>НЕМНОГО СТАТИСТИКИ</h3>
-        <h3>120</h3>
-        <h5>СЧАСТЛИВЫХ КЛИЕНТОВ</h5>
-        <h3>4,600</h3>
-        <h5>ЧАСОВ РАБОТЫ</h5>
-        <h3>340</h3>
-        <h5>ПРОЕКТОВ ЗАВЕРШЕНО</h5>
-        <h3>23</h3>
-        <h5>НАГРАД ПОЛУЧЕНО</h5>
+        <div class="statistic">
+            <div class="clients">
+                <h4>120</h4>
+                <h5>СЧАСТЛИВЫХ КЛИЕНТОВ</h5>
+            </div>
+            <div class="hours">
+                <h4>4,600</h4>
+                <h5>ЧАСОВ РАБОТЫ</h5>
+            </div>
+            <div class="projects">
+                <h4>340</h4>
+                <h5>ПРОЕКТОВ ЗАВЕРШЕНО</h5>
+            </div>
+            <div class="prizes">
+                <h4>23</h4>
+                <h5>НАГРАД ПОЛУЧЕНО</h5>
+            </div>
     </div></div>
     <div class="main8"><div class="reviews">
         <h3>ОТЗЫВЫ</h3>
         <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</span></p>
-        <span><b>Михаил</b>, Ген директор ПАО “Газпром”.</span>
+        <p><b>Михаил</b>, Ген директор ПАО “Газпром”.</p>
     </div></div>
-    <div class="main9"><div class="contacts">
+    <div class="main9">
         <h3>МОИ КОНТАКТЫ</h3>
-        <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo </span></p>
-        <p>Санкт-Петербург <br> Невский проспект 11</p>
-        <p>info@companyname.com</p>
-        <p>+7 999 999-99-99</p>
-        <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
-        <form action="Ссылка на отправку данных">
-            <input type="tel" name="name" placeholder="Имя">
-            <input type="tel" name="email" placeholder="Email">
-            <input type="text" name="message" placeholder="Cообщение">
-            <input type="submit" value="Отправить">
-        </form>
-    </div></div>
-    <div class="map"><div class="location">
-        <h4>I'M HERE</h4>
-    </div></div>
-    <footer><span>Copyright © 2021 Андрей Браун. Design by Web</span></footer>
+        <div class="contacts">
+            <h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p></h5>
+            <div class="after_contacts">
+                <div class="address">
+                    <p>Санкт-Петербург <br> Невский проспект 11</p>
+                </div>
+                <div class="email">
+                    <p>info@companyname.com</p>
+                </div>
+                <div class="telephone">
+                    <p>+7 999 999-99-99</p>
+                </div>
+            </div>
+            <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+            <form action="Ссылка на отправку данных">
+                <input type="tel" name="name" placeholder="Имя">
+                <input type="tel" name="email" placeholder="Email">
+                <input type="text" name="message" placeholder="Cообщение">
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <h4><p>I'M HERE</p></h4>
+    </div>
+    <footer class="footer"><p>Copyright © 2021 Андрей Браун. Design by Web</p></footer>
 </body>
 </html>
