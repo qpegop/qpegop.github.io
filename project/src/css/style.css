@@ -95,16 +95,16 @@ nav{
 }
 
 .main3{
-    text-align: center;
     background: url(../img/bg2.jpg) no-repeat;
     background-size: 100% auto;
 }
 
-.portfolio h3{
+.main3 h3{
+    text-align: center;
+    color: #384354;
     font-size: 33.33px;
-    color: #263244;
-    padding: 90px 0px 36px 0px;
-    background: url(../img/orange_line.png) no-repeat 50% 150px;
+    padding: 102px 0px 120px 0px;
+    background: url(../img/orange_line.png) no-repeat 50% 168px;
 }
 
 .portfolio h4{
@@ -113,45 +113,50 @@ nav{
     color: #cf7600;
 }
 
-.portfolio span{
+.portfolio p{
     font-size: 16.67px;
     color: #3f495a;
     line-height: 20px;
 }
 
-.point{
-    margin: 108px 0px 0px 0px;
+.after_portfolio{
+    padding-bottom: 200px;
 }
 
 .webdesign{
+    float: left;
+    text-align: center;
     padding-top: 72px;
-    margin-right: 70%;
-    margin-top: -50px;
+    margin: 0px 70px 0px 200px;
     background: url(../img/webdesign.png) no-repeat 50% 0%;
 }
 
 .work{
+    float: left;
+    text-align: center;
     padding-top: 72px;
-    margin-right: 25%;
-    margin-top: -280px;
+    margin-right: 70px;
     background: url(../img/work.png) no-repeat 50% 0%;
 }
 
 .ceo_optimisation{
+    float: left;
+    text-align: center;
     padding-top: 72px;
-    margin-right: -25%;
-    margin-top: -280px;
+    margin-right: 70px;
     background: url(../img/ceo_optimisation.png) no-repeat 50% 0%;
 }
 
 .marketing{
+    float: left;
+    text-align: center;
     padding-top: 72px;
-    margin-right: -70%;
-    margin-top: -280px;
+    margin-right: 70px;
     background: url(../img/marketing.png) no-repeat 50% 0%;
 }
 
 .cases h3{
+    clear: both;
     color: #384354;
     font-size: 33.33px;
     padding: 108px 0px 72px 0px;
@@ -263,6 +268,7 @@ nav{
 
 .statistic{
     color: #323d4f;
+    padding-bottom: 180px;
 }
 
 .statistic h4{
@@ -344,6 +350,7 @@ nav{
 .contacts{
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 108px;
 }
 
 .contacts p{
@@ -418,6 +425,7 @@ nav{
     background-color: rgba(100, 100, 100, 0);
     color: white;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .map h4{
