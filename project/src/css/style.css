@@ -6,6 +6,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -32,7 +33,7 @@ nav{
 
 .main1{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg1.jpg) center/cover no-repeat;
 }
 
@@ -91,7 +92,7 @@ nav{
     border-radius: 5px;
     font-size: 16.67px;
     color: #6f707e;
-    background: url(../img/download.jpg) no-repeat 12px 50% white;
+    background: url(../img/download.png) no-repeat 12px 50% white;
 }
 
 .main3{
@@ -448,4 +449,148 @@ nav{
     margin: 0 auto;
     line-height: 96px;
     background-color: #354051;
+}
+
+
+/* Animations */
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li{
+    transition: transform 0.1s;
+}
+
+.menu li:hover{
+    transform: scale(1.1,1.1)
+}
+
+.menu li:active{
+    transform: scale(1,1)
+}
+
+.title__container input{
+    transition: background 0.2s;
+}
+
+.title__container input:hover{
+    background: #dedce3;
+}
+
+.title__container input:active{
+    background: #c3c1c7;
+}
+
+.download input{
+    transition: background 0.2s;
+}
+
+.download input:hover{
+    background: url(../img/download.png) no-repeat 12px 50% #f2f2f2;
+}
+
+.download input:active{
+    background: url(../img/download.png) no-repeat 12px 50% #e0e0e0;
+}
+
+.after_portfolio h4{
+    transition: transform 0.3s;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.after_portfolio h4:hover{
+    transform: scale(1.2)
+}
+
+.after_client input{
+    transition: background color 0.2s;
+}
+
+.after_client input:hover{
+    background: #52a19a;
+}
+
+.after_client input:active{
+    background: #4b9690;
+    color: #f5f5f5;
+}
+
+.border select{
+    transition: background 0.1s;
+}
+
+.border select:active{
+    background: url(../img/switch.png) no-repeat 95% 50% #dedede;
+}
+
+.main6 span{
+    transition: transform 0.3s;
+}
+
+.main6 span:hover{
+    transform: scale(1.5);
+}
+
+.main6 h5{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.statistic h4{
+    transition: transform 0.3s;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.statistic h4:hover{
+    transform: scale(1.2)
+}
+
+.contacts input[type=tel]{
+    transition: background transform 0.2s;
+}
+
+.contacts input[type=tel]:hover{
+    background: #cbd0d6;
+}
+
+.contacts input[type=tel]:active{
+    background: #c2c6cc;
+    transform: scale(0.995)
+}
+
+.contacts input[type=text]{
+    transition: background transform 0.2s;
+}
+
+.contacts input[type=text]:hover{
+    background: #cbd0d6;
+}
+
+.contacts input[type=text]:active{
+    background: #c2c6cc;
+    transform: scale(0.995)
+}
+
+.contacts input[type=submit]{
+    transition: background 0.2s;
+}
+
+.contacts input[type=submit]:hover{
+    background: rgba(203, 208, 214, 0.2);
+}
+
+.contacts input[type=submit]:active{
+    background: rgba(203, 208, 214, 0.4);
 }
